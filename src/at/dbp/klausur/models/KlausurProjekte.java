@@ -12,6 +12,16 @@ public class KlausurProjekte {
     public KlausurProjekte() {
     }
 
+    public int getTaskCount() {
+        return TaskCount;
+    }
+
+    public void setTaskCount(int taskCount) {
+        TaskCount = taskCount;
+    }
+
+    private int TaskCount;
+
     public KlausurProjekte(int projektId) {
         ProjektId = projektId;
     }
